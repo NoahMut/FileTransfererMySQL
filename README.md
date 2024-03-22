@@ -1,27 +1,39 @@
-## 
+## FILE TRANSFER per MySQL
 
-The core functionality of revolves around user interaction and data manipulation through a graphical user interface (GUI) built with Tkinter, a standard Python interface to the Tk GUI toolkit.
+This project includes a suite of Python scripts for managing user authentication, file transfer, and chat functionalities. Utilizing MySQL for database management and FTP for file transfer, it offers a comprehensive environment for secure communication and data exchange.
 
-Here's what you can expect in the final version:
+## Prerequisites
 
-- **User Rating System**: An innovative feature to gather user preferences and ratings for various attributes, potentially to tailor a personalized coding experience.
-- **Login and Registration System**: Secure login and signup mechanisms for users to create their own accounts, with features such as password recovery and account management.
-- **Database Interaction**: Utilizing `pymysql` to connect and interact with a MySQL database, ensuring that user data is stored and retrieved efficiently.
-- **GUI Enhancements**: Aesthetically pleasing and user-friendly GUI components that provide a delightful user interaction, made possible with Tkinter and other supportive modules.
+Before you begin, ensure you have met the following requirements:
 
+- Python 3.x
+- MySQL Server
+- FTP Server
+## Installation
 
+- Clone the repo:
+bash
+Copy code
+git clone https://github.com/NoahMut/FileTransfererMySQL.git
+- Navigate to the project directory:
+bash
+Copy code
+cd your-project-name
+Install the required Python packages:
+bash
+Copy code
+pip install -r requirements.txt
+Configuration
+
+Rename settings.ini.example to settings.ini.
+Edit settings.ini with your MySQL and FTP server details.
 ## Usage
 
-- **Here is how you can use this project:
-  
+## Here is how you can use this project:
+
 ## User Authentication
-
-- **authentication.py: Handles user registration and login.
-
+- authentication.py: Handles user registration and login.
 ## File Transfer
-
-- **filestransfer.py: Manages file uploading and downloading.
-  
+- filestransfer.py: Manages file uploading and downloading.
 ## Chat Functionality
-
-- **SusChat.py: A chat interface that supports user authentication, file transfer, and real-time messaging.
+- SusChat.py: A chat interface that supports user authentication, file transfer, and real-time messaging
